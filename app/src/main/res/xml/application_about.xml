@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:icon="@drawable/ic_android_black_36dp"
+        android:key="pref_app_version"
+        android:title="Version Number">
+    </Preference>
+
+    <Preference
+        android:icon="@drawable/ic_live_help_black_36dp"
+        android:summary="linuxcnc.org"
+        android:title="Gcode Documentation">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://linuxcnc.org/docs/html/gcode/g-code.html"/>
+    </Preference>
+
+    <Preference
+        android:icon="@drawable/ic_bug_report_black_36dp"
+        android:summary="github.com"
+        android:title="Source">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/DmytroKmetsynskyi/PolishingM" />
+    </Preference>
+
+</PreferenceScreen>
